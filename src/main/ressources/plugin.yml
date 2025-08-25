@@ -1,0 +1,17 @@
+name: SpigotPluginTemplate
+main: de.lp_coding.template.TemplatePlugin
+version: 1.0.0
+api-version: "1.15"   
+author: Luca
+website: https://github.com/lp-coding/spigot-plugin-template
+
+commands:
+  hello:
+    description: Sag hallo im Chat
+    usage: /hello
+    permission: template.hello
+
+permissions:
+  template.hello:
+    description: Erlaubt /hello
+    default: true
